@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+      
+    
+    
+    
+<!-- BubbleChart generated in R 3.0.3 by googleVis 0.4.7 package -->
+<!-- Sat May 10 15:00:42 2014 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+
+
+// jsData 
+function gvisDataBubbleChartID2615d3a3ee4 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "African American Studies",
+20,
+7,
+"African American Studies" 
+],
+[
+ "American Studies",
+9,
+2,
+"American Studies" 
+],
+[
+ "Anthropology",
+220,
+17,
+"Anthropology" 
+],
+[
+ "Applied Physics and Applied Mathematics",
+43,
+3,
+"Applied Physics and Applied Mathematics" 
+],
+[
+ "Archaeology",
+4,
+0,
+"Archaeology" 
+],
+[
+ "Architecture",
+27,
+3,
+"Architecture" 
+],
+[
+ "Art History",
+172,
+20,
+"Art History" 
+],
+[
+ "Asian American Studies",
+6,
+0,
+"Asian American Studies" 
+],
+[
+ "Astronomy",
+91,
+9,
+"Astronomy" 
+],
+[
+ "Biology & Biomedical Engineering",
+212,
+22,
+"Biology & Biomedical Engineering" 
+],
+[
+ "Business",
+13,
+1,
+"Business" 
+],
+[
+ "Center for Study of Ethnicity and Race",
+23,
+2,
+"Center for Study of Ethnicity and Race" 
+],
+[
+ "Chemistry and Chemical Engineering",
+409,
+31,
+"Chemistry and Chemical Engineering" 
+],
+[
+ "Civil Engineering",
+14,
+0,
+"Civil Engineering" 
+],
+[
+ "Classics",
+81,
+3,
+"Classics" 
+],
+[
+ "Computer Science",
+302,
+31,
+"Computer Science" 
+],
+[
+ "Continuing Education",
+4,
+0,
+"Continuing Education" 
+],
+[
+ "Dance",
+90,
+7,
+"Dance" 
+],
+[
+ "Earth and Environmental Engineering",
+14,
+1,
+"Earth and Environmental Engineering" 
+],
+[
+ "Earth and Environmental Science",
+105,
+9,
+"Earth and Environmental Science" 
+],
+[
+ "East-Asian Languages and Cultures",
+269,
+31,
+"East-Asian Languages and Cultures" 
+],
+[
+ "Ecology, Evolution, and Environmental Biology",
+51,
+3,
+"Ecology, Evolution, and Environmental Biology" 
+],
+[
+ "Economics",
+489,
+51,
+"Economics" 
+],
+[
+ "Education",
+9,
+1,
+"Education" 
+],
+[
+ "Electrical Engineering",
+44,
+5,
+"Electrical Engineering" 
+],
+[
+ "English and Comparative Literature",
+596,
+44,
+"English and Comparative Literature" 
+],
+[
+ "Film",
+61,
+3,
+"Film" 
+],
+[
+ "First-Year Seminars",
+103,
+10,
+"First-Year Seminars" 
+],
+[
+ "French",
+236,
+23,
+"French" 
+],
+[
+ "Germanic Languages and Literature  ",
+59,
+7,
+"Germanic Languages and Literature  " 
+],
+[
+ "History",
+570,
+44,
+"History" 
+],
+[
+ "Human Rights",
+7,
+0,
+"Human Rights" 
+],
+[
+ "Industrial Engineering and Operations Research",
+101,
+6,
+"Industrial Engineering and Operations Research" 
+],
+[
+ "Italian",
+130,
+7,
+"Italian" 
+],
+[
+ "Latino Studies",
+5,
+0,
+"Latino Studies" 
+],
+[
+ "Law School",
+2,
+0,
+"Law School" 
+],
+[
+ "Mathematics",
+567,
+55,
+"Mathematics" 
+],
+[
+ "Mechanical Engineering",
+20,
+3,
+"Mechanical Engineering" 
+],
+[
+ "Medicine",
+1,
+0,
+"Medicine" 
+],
+[
+ "Middle Eastern, South Asian, and African Studies",
+196,
+11,
+"Middle Eastern, South Asian, and African Studies" 
+],
+[
+ "Music",
+154,
+12,
+"Music" 
+],
+[
+ "Philosophy",
+218,
+34,
+"Philosophy" 
+],
+[
+ "Physical Education",
+45,
+3,
+"Physical Education" 
+],
+[
+ "Physical Therapy",
+0,
+1,
+"Physical Therapy" 
+],
+[
+ "Physics",
+249,
+22,
+"Physics" 
+],
+[
+ "Political Science",
+552,
+35,
+"Political Science" 
+],
+[
+ "Psychology",
+495,
+33,
+"Psychology" 
+],
+[
+ "Religion",
+144,
+11,
+"Religion" 
+],
+[
+ "School of International & Public Affairs",
+18,
+1,
+"School of International & Public Affairs" 
+],
+[
+ "School of Journalism",
+3,
+0,
+"School of Journalism" 
+],
+[
+ "Slavic Languages",
+71,
+8,
+"Slavic Languages" 
+],
+[
+ "Sociology",
+172,
+18,
+"Sociology" 
+],
+[
+ "Spanish and Portuguese",
+357,
+32,
+"Spanish and Portuguese" 
+],
+[
+ "Speech",
+3,
+0,
+"Speech" 
+],
+[
+ "Statistics",
+141,
+15,
+"Statistics" 
+],
+[
+ "Sustainable Development",
+1,
+0,
+"Sustainable Development" 
+],
+[
+ "Swedish",
+5,
+2,
+"Swedish" 
+],
+[
+ "Theater",
+25,
+2,
+"Theater" 
+],
+[
+ "Underwater Basket Weaving",
+15,
+1,
+"Underwater Basket Weaving" 
+],
+[
+ "Urban Studies",
+50,
+4,
+"Urban Studies" 
+],
+[
+ "Visual Arts",
+39,
+3,
+"Visual Arts" 
+],
+[
+ "Women's Studies",
+56,
+6,
+"Women's Studies" 
+],
+[
+ "Writing",
+106,
+13,
+"Writing" 
+] 
+];
+data.addColumn('string','dept.name');
+data.addColumn('number','none');
+data.addColumn('number','gold');
+data.addColumn('string','dept.name.1');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsDrawChart
+function drawChartBubbleChartID2615d3a3ee4() {
+var data = gvisDataBubbleChartID2615d3a3ee4();
+var options = {};
+options["hAxis"] = {minValue:75, maxValue:125};
+options["hAxis.textPosition"] = "none";
+options["width"] =    800;
+options["height"] =    600;
+
+
+    var chart = new google.visualization.BubbleChart(
+    document.getElementById('BubbleChartID2615d3a3ee4')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartBubbleChartID2615d3a3ee4);
+})();
+function displayChartBubbleChartID2615d3a3ee4() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsFooter
+</script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID2615d3a3ee4"></script>
+
+
+<!-- divChart -->
+  
+<div id="BubbleChartID2615d3a3ee4"
+  style="width: 800px; height: 600px;">
+</div>
+
+
+
+    
+    
